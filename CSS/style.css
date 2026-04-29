@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../Images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px 0;
+}
+
+.div {
+    width: 1000px;
+    min-height: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #87CEEB;
+    box-shadow: 0 0 15px #87CEEB;
+}
+
+.title {
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 7px;
+    color: #1f5cbf;
+}
+
+.motto {
+    color: #507fcc;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.text {
+    font-family: "Iosevka Charon", monospace;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.directii {
+    color: #5680c4;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    width: 220px;
+    min-height: 250px;
+    background: rgba(159, 235, 237);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(107, 215, 235, 0.6);
+    background: rgb(112, 227, 231);
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+.zigzag {
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.zigzag-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+    gap: 40px;
+}
+
+.zigzag-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.zigzag-item .text {
+    flex: 1;
+}
+
+.zigzag-item h3 {
+    color: #507fcc;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.zigzag-item p {
+    font-family: "Iosevka Charon", monospace;
+    text-align: justify;
+    text-align: justify;
+}
+
+.zigzag-item .image {
+    flex: 1;
+}
+
+.zigzag-item img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(112, 227, 231);
+}
+.transport-grid {
+    width: 90%;
+    margin: 30px auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.transport-box {
+    background: rgba(159, 235, 237, 0.18);
+    border: 2px solid rgba(112, 227, 231, 0.5);
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 0 12px rgba(112, 227, 231, 0.2);
+}
+
+.transport-box h2 {
+    color: #507fcc;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-top: 0;
+}
+
+.transport-box p {
+    font-family: "Iosevka Charon", monospace;
+    text-align: justify;
+    margin: 0;
+}
+
+.transport-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.transport-box.single {
+    width: 45%;
+}
+.contact-section {
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Raleway", sans-serif;
+}
+
+.contact-section p {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #1f5cbf;
+}
+
+.contact-section a {
+    color: #1f5cbf;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+#contact-container {
+    min-height: auto;
+    padding-top: 0;
+}
